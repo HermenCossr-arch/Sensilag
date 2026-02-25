@@ -1,44 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sensi Lag — Performance para Free Fire</title>
-<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Exo+2:ital,wght@0,300;0,400;0,600;0,800;1,300&display=swap" rel="stylesheet">
+<meta charset   >
+<meta name = "viewport" content = "width=device-width, initial-scale=1.0" >
+<title>Sensi Lag — Desempenho para Free Fire</title>
+<link href = "https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Exo+2:ital,wght@0,300;0,400;0,600;0,800;1,300&display=swap" rel = "stylesheet" >
 <style>
-  :root {
-    --wine: #7B0D1E;
-    --wine-light: #9B1030;
-    --wine-bright: #C41230;
-    --wine-dark: #3D0610;
-    --black: #060606;
-    --dark: #0E0E0E;
-    --dark2: #161616;
-    --dark3: #1E1E1E;
-    --gray: #2A2A2A;
-    --text: #ECECEC;
-    --text-dim: #777;
-    --text-muted: #444;
-    --accent: #FF1F3D;
-    --green: #22C55E;
-    --yellow: #EAB308;
+  :raiz {
+    -- vinho:  #7B0D1E;
+    --vinho- leve:  #9B1030;
+    --vinho- brilhante:  #C41230;
+    --vinho- escuro:  #3D0610;
+    -- preto:  #060606;
+    -- escuro:  #0E0E0E;
+    -- dark2:  #161616;
+    -- dark3:  #1E1E1E;
+    -- cinza:  #2A2A2A;
+    -- texto:  #ECECEC;
+    --texto- dim:  #777;
+    --texto silenciado:  #444;
+    -- sotaque:  #FF1F3D;
+    -- verde:  #22C55E;
+    -- amarelo:  #EAB308;
   }
-  *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
-  html{scroll-behavior:smooth;}
-  body{background:var(--black);font-family:'Exo 2',sans-serif;color:var(--text);overflow-x:hidden;}
-  body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");pointer-events:none;z-index:9999;opacity:0.4;}
+  *,*::antes,*::depois { margem: 0 ; preenchimento: 0 ; box- sizing: border-box; }
+  html { scroll- behavior: suave; }
+  corpo { fundo: var(--preto);fonte- família: 'Exo 2 ',sans-serif; cor: var(--texto);overflow- x: oculto; }
+  corpo: :antes { conteúdo: ''; posição: fixa; inserção: 0 ; imagem de fundo : url( "data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E" ); eventos do ponteiro: nenhum; índice z: 9999 ; opacidade: 0,4 ; }
 
   /* NAV */
-  nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:0 40px;height:64px;display:flex;align-items:center;justify-content:space-between;background:rgba(6,6,6,0.92);backdrop-filter:blur(20px);border-bottom:1px solid rgba(123,13,30,0.2);}
-  .nav-logo{font-family:'Rajdhani',sans-serif;font-size:22px;font-weight:700;letter-spacing:3px;text-decoration:none;color:var(--text);}
-  .nav-logo span{color:var(--wine-bright);}
-  .nav-links{display:flex;gap:28px;list-style:none;align-items:center;}
-  .nav-links a{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--text-dim);text-decoration:none;font-family:'Rajdhani',sans-serif;font-weight:600;transition:color 0.2s;}
-  .nav-links a:hover{color:var(--text);}
-  .nav-cta{background:var(--wine)!important;color:#fff!important;padding:8px 20px;border-radius:6px;}
-  .nav-user{font-size:11px;color:var(--text-dim);font-family:'Rajdhani',sans-serif;letter-spacing:1px;cursor:pointer;}
+  nav  position: fixed; top: 0 ; left: 0 ; right: 0 ; z- index: 100 ; padding: 0  40 px; height: 64 px; display: flex; align- items: center; justify- content: space-between; background: rgba( 6 , 6 , 6 , 0 .92); background- filter: blur( 20 px); border- bottom: 1 px solid rgba( 123 , 13 , 30 , 0 .2); }
+  .nav-logo { font- family: 'Rajdhani', sans-serif; font- size: 22px ; font- weight: 700 ; letter- spacing: 3px ; text- decoration: none; color: var(--text); }
+  .nav-logo span { color: var(--wine-bright); }
+  .nav-links { display: flex; gap: 28px ; list- style: none; align- items: center; }
+  .nav-links a { font- size: 11px ; letter- spacing: 2px ; text- transform: uppercase; color: var(--text-dim); text- decoration: none; font- family: 'Rajdhani', sans-serif; font- weight: 600 ; transition: color 0.2s ; }
+  .nav-links a: hover { color: var(--text); }
+  .nav-cta { background: var(--wine)!important; color: #fff!important;padding:8px 20px;border-radius:6px;}
+  .nav-user { tamanho da fonte : 11px ; cor: var(--text-dim); família da fonte: 'Rajdhani', sans-serif; espaçamento entre letras: 1px ; cursor: pointer; }
 
-  /* TRIAL BANNER */
+  /* BANNER DE TESTE */
   .trial-banner{position:fixed;top:64px;left:0;right:0;padding:8px 20px;text-align:center;font-family:'Rajdhani',sans-serif;font-size:12px;letter-spacing:2px;z-index:99;display:none;}
   .trial-banner.active{display:block;background:linear-gradient(90deg,var(--wine-dark),var(--wine),var(--wine-dark));}
   .trial-banner.expired{display:block;background:#1a0000;border-bottom:1px solid var(--accent);}
